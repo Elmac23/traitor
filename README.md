@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Traitor
 
-## Getting Started
+Traitor to prosta gra towarzyska, w której gracze próbują odkryć, kto z nich jest oszustem!
 
-First, run the development server:
+## Opis gry
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+W każdej rundzie wszyscy gracze otrzymują to samo słowo — z wyjątkiem jednej osoby, która nie zna tego słowa. Zadaniem graczy jest opisywanie słowa w taki sposób, by nie zdradzić go wprost, a jednocześnie rozpoznać, kto nie zna hasła i jest tytułowym "traitorem" (oszustem).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Gra świetnie sprawdza się na spotkaniach ze znajomymi, imprezach czy integracjach. Słowa są proste, często zabawne lub kontrowersyjne, a rozgrywka wywołuje wiele śmiechu i emocji.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Jak grać?
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Każdy gracz otrzymuje słowo (poza jednym, który nie zna hasła).
+2. Gracze po kolei opisują słowo, nie zdradzając go wprost.
+3. Po rundzie wszyscy głosują, kto ich zdaniem jest oszustem.
+4. Jeśli oszust zostanie odkryty — pozostali wygrywają. Jeśli nie — wygrywa oszust!
 
-## Learn More
+## Funkcje
 
-To learn more about Next.js, take a look at the following resources:
+- Prosta, intuicyjna obsługa
+- 100 losowych słów
+- Szybka rozgrywka
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Uruchomienie projektu
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+1. Zainstaluj zależności:
+   ```bash
+   npm install
+   ```
+2. Uruchom aplikację developersko:
+   ```bash
+   npm run dev
+   ```
+3. Otwórz przeglądarkę i przejdź pod adres `http://localhost:3000`
 
-## Deploy on Vercel
+## Wymagania
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Node.js 18+
+- npm
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Autor
+
+Projekt stworzony przez Elmac23.
+
+Miłej zabawy!
